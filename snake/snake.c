@@ -1,6 +1,15 @@
+//#include <stdio.h>
+//#include <wchar.h>
+//#include <locale.h>
+
+//#include <iostream>   // Standard Header
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/ioctl.h>
+#include <termios.h>
+#include <stropts.h>
 #include <stdio.h>
-#include <wchar.h>
-#include <locale.h>
+
 
 #define N 20 
 #define M 60
